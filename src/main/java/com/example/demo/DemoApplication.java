@@ -18,7 +18,8 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		
-	//	System.out.println("Original Message");
+		System.out.println("Original Message");
+		//added comment
 	/*	try {
 			FileInputStream fis=new FileInputStream(new File("C:\\Users\\Santosh\\Documents\\workspace-sts-3.9.4.RELEASE\\demo\\src\\main\\resources\\example.properties"));
 			Properties prop=new Properties();
