@@ -18,6 +18,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		
+		System.out.println("New Message1");
 		System.out.println("Original Message");
 		/*added comment*/
 	/*	try {
