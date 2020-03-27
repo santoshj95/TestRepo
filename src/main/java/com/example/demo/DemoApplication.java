@@ -21,6 +21,7 @@ public class DemoApplication {
 		System.out.println("New Message from git0");
 		System.out.println("New Message from git");
 		System.out.println("New Message1");
+		System.out.println("New Message2");
 		System.out.println("Original Message");
 		/*added comment*/
 	/*	try {
