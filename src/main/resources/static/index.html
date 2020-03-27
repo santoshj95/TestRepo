@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<script src="angular.js"></script>
+		<script src="angular-ui-router.min.js"></script>
+		<script src="app.js"></script>
+		<script src="View1Controller.js"></script>
+		<script src="View2Controller.js"></script>
+		<script src="View3Controller.js"></script>
+		<script src="directive/directive1.js"></script>			
+		<script src="directive/DirController.js"></script>					
+		<script src="service/View1Servic.js"></script>
+		<script src="service/View2Service.js"></script>
+		
+	</head>
+	<body ng-app="appName">
+		<div>
+			<a ui-sref="view1">view1</a>
+			<a ui-sref="view2">view2</a>
+			<a ui-sref="view3">view3</a>
+		</div>
+		<div>
+			<ui-view></ui-view>
+		</div>	  
+	<body/>
+<html/>
