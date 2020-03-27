@@ -17,6 +17,7 @@ import com.example.demo.model.Parent;
 public class DemoApplication {
 
 	public static void main(String[] args) {
+		System.out.println("New Message from git-1");
 		System.out.println("New Message from git0");
 		System.out.println("New Message from git");
 		System.out.println("New Message1");
