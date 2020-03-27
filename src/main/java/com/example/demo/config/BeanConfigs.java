@@ -13,6 +13,7 @@ import com.example.demo.model.ExampleBean;
 @Configuration
 public class BeanConfigs {
 
+	//comment
 	@Bean
 	public DriverManagerDataSource getDataSource() {		
 		DriverManagerDataSource ds=new DriverManagerDataSource();
